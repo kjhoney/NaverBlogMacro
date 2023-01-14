@@ -1,0 +1,14 @@
+{
+  "name": "NaverBlogMacro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kjhoney/NaverBlogMacro.git",
+  "author": "kjhoney <kjhkjh3922@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^19.5.2"
+  }
+}
