@@ -3,8 +3,9 @@ const puppeteer = require('puppeteer');
 // 여기에 id, pw, 블로그 글주소 복붙
 const naver_id = '';
 const naver_pw = '';
-const blog_id = '';
-const log_no = '';
+const post_url = 'https://blog.naver.com/kiti817/222983317744';
+
+const [blog_id, log_no] = post_url.replace('https://blog.naver.com/', '').split('/');
 const sympathy_url = `https://m.blog.naver.com/SympathyHistoryList.naver?blogId=${blog_id}&logNo=${log_no}&categoryId=POST`;
 
 try {
